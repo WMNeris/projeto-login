@@ -27,20 +27,25 @@
             Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
         </p>
 
-        <form action="" method="post">
+        <form action="#" method="post">
 
-            <label for="iemail" > <span class="material-symbols-outlined">
-                person
-                </span> </label>
-            <input type="email" name="nemail" id="iemail" required> <br>
+            <div id="email">
+                <span class="material-symbols-outlined">
+                    person
+                </span>
+            
+            <input type="email" name="nemail" id="iemail" required placeholder="Seu e-mail" >
+            </div> 
 
-            <label for="isenha"> <span class="material-symbols-outlined">
-                vpn_key
-                </span> </label>
-            <input type="password" name="nsenha" id="isenha" required> <br>
+            <div id="senha">
+                <span class="material-symbols-outlined">
+                    vpn_key
+                </span>
+                <input type="password" name="nsenha" id="isenha" required placeholder="Sua senha">
+            </div>
 
-            <input type="button" value="Entrar"> <br>
-            <input type="button" value="Esqueci a senha">
+            <input type="submit" value="Entrar" id="buttom1"> <br>
+            <input type="submit" value="Esqueci a senha" id="buttom2">
         </form>
     </main>
 </body>

@@ -13,7 +13,7 @@ body, html{
 img{
     
     height: 210px;
-    width: 250px;
+    width: 260px;
     display: block;
     margin: auto;
     margin-top: 35px;
@@ -30,34 +30,104 @@ h1{
 p{
     text-align: left;
     font-size: 0.8em;
+    margin-bottom: 5px ;
     
 }
 
 span{
-    background-color: #5F2C82;
-    color: white;
-    
+    color: rgb(255, 255, 255);
 }
 
 #iemail{
     background-color: #94CFCD;
     border: none;
-    border-radius: 5px;
-    padding: 8px;
+    border-radius: 7px;
+    padding: 12px;
+    margin-left: 13px;
+    
+    
+    
+   
 }
 
 #isenha{
     background-color: #94CFCD;
     border: none;
-    border-radius: 5px;
-    padding: 8px;
+    border-radius: 7px;
+    padding: 12px;
+    margin-left: 13px;
+    
 }
 
 main{
     padding: 10px;
     padding-bottom: 30px;
     background-color: #FFFFFF;
-    max-width: 230px;
+    max-width: 240px;
     margin: auto;
     border-radius: 0px 0px 20px 20px;
 }
+
+#buttom1{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 236px;
+    border-radius: 4px;
+    margin-top: 5px;
+    background-color: #469e9b;
+    border: none;
+    border: 1px solid #4fb8b4;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.329);
+}
+
+#buttom1:hover{
+    background-color: #194d4c;
+    border: 1px solid #3c918e;
+    color: wheat;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+}
+
+
+#buttom2{
+    color: #3c918e;
+    padding: 10px;
+    width: 236px;
+    border-radius: 4px;
+    margin-top: 5px;
+    background-color: white;
+    border: 1px solid #3c918e;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.329);
+}
+
+#buttom2:hover{
+    background-color:  #3c918e;
+    color: wheat;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+
+}
+
+#senha{
+    background-color: #5F2C82;
+    padding: 2px;
+    border-radius: 7px;
+    width: 236px;
+    
+    
+}
+#email{
+    background-color: #5F2C82;
+    padding: 2px;
+    border-radius: 7px;
+    width: 236px;
+    margin-bottom: 4px;
+    
+    
+}
+
+
+
+
