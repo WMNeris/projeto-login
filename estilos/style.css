@@ -10,6 +10,7 @@ body, html{
     background-color: #5F2C82;
     height: 100vh;
     width: 100vw;
+    
 }
 
 main{
@@ -79,6 +80,10 @@ div.campo > input{
     transform: translateY(-12px);
 }
 
+div.campo > input:focus-within{
+    background-color: white;
+}
+
 .campo{
     background-color: #5F2C82;
     border-radius: 8px;
@@ -116,6 +121,11 @@ form > a{
     text-align: center;
     border: 1px solid #6CD3CF;
     
+}
+
+form > a > .material-icons{
+    font-size: 1.2em;
+    padding: 6px;
 }
 
 form > a:hover{
